@@ -1,0 +1,9 @@
+/**
+ * Styles spécifiques à Internet Explorer 9
+ *
+ * Ces styles peuvent écraser les styles déclarés dans la feuille de styles principale : style.css
+ * et dans la feuille de styles spécifique à Internet Explorer : ie-style.css
+ *
+ * @package WordPress
+ * @subpackage _basique-enfant
+ **/

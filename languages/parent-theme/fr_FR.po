@@ -1,0 +1,236 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: _basique v0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-04-30 11:08+0100\n"
+"Last-Translator: Sébastien Méric <sebastien.meric@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Language: fr_FR\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ _basique
+#: functions.php:48
+msgid "Header menu"
+msgstr "Menu d'entête"
+
+# @ _basique
+#: functions.php:49
+msgid "Footer menu"
+msgstr "Menu de pied de page"
+
+# @ _basique
+#: functions.php:147
+msgid "Header"
+msgstr "Entête"
+
+# @ _basique
+#: functions.php:149
+msgid "The header widget area."
+msgstr "Zone à widget de l'entête."
+
+# @ _basique
+#: functions.php:156
+msgid "Primary"
+msgstr "Principal"
+
+# @ _basique
+#: functions.php:158
+msgid "The primary sidebar."
+msgstr "La barre latérale principale."
+
+# @ _basique
+#: functions.php:165
+msgid "Seconary"
+msgstr "Secondaire"
+
+# @ _basique
+#: functions.php:167
+msgid "The secondary sidebar."
+msgstr "La barre latérale secondaire."
+
+# @ _basique
+#: functions.php:174
+msgid "Footer"
+msgstr "Pied de page"
+
+# @ _basique
+#: functions.php:176
+msgid "The footer widget area."
+msgstr "Zone à widget du pied de page."
+
+# @ _basique
+#: functions.php:225
+#, php-format
+msgid "Page %s"
+msgstr "Page %s"
+
+# @ _basique
+#: functions.php:259
+msgid "Primary navigation"
+msgstr "Navigation principale"
+
+# @ _basique
+#: functions.php:262
+msgid "Secondary navigation"
+msgstr "Navigation secondaire"
+
+# @ _basique
+#: header.php:48
+#, php-format
+msgid "Copyright © %1s %2s. All Rights Reserved."
+msgstr "Copyright © %1s %2s. Tous Droits Réservés."
+
+# @ _basique
+#: index.php:10 page-templates/full-page.php:12
+#: page-templates/home-page.php:12 page-templates/news.php:12
+#: page-templates/primary-sidebar-page.php:12
+msgid "Main page content"
+msgstr "Contenu principal de la page"
+
+# @ _basique
+#: partials/loops/single-home-page.php:15 partials/loops/single-page.php:18
+#: partials/loops/single.php:18
+msgid "(Edit)"
+msgstr "(Modifier)"
+
+# @ _basique
+#: partials/loops/single-home-page.php:18 partials/loops/single-page.php:21
+#: partials/loops/single.php:21
+msgid "Pages : "
+msgstr "Pages : "
+
+# @ _basique
+#: partials/loops/single-home-page.php:22 partials/loops/single-page.php:25
+#: partials/loops/single.php:25
+msgid "Next page <span class=\"meta-nav\">&raquo;</span>"
+msgstr "Page suivante <span class=\"meta-nav\">&raquo;</span>"
+
+# @ _basique
+#: partials/loops/single-home-page.php:23 partials/loops/single-page.php:26
+#: partials/loops/single.php:26
+msgid "<span class=\"meta-nav\">&laquo;</span> Previous page"
+msgstr "<span class=\"meta-nav\">&laquo;</span> Page précédente"
+
+# @ _basique
+#: functions.php:418 partials/loops/list-news.php:47
+#: partials/loops/list.php:32
+msgid "Not Found"
+msgstr "Non Trouvé"
+
+# @ _basique
+#: partials/loops/list-news.php:49 partials/loops/list.php:34
+#: partials/loops/not-found.php:13
+msgid "Sorry, but you are looking for something that isn&#8217;t here."
+msgstr "Désolé mais aucun contenu ne correspond."
+
+# @ _basique
+#: partials/sidebars/footer.php:16
+msgid "Footer : widget ready area !"
+msgstr "Pied de page : zone prête à recevoir des widgets !"
+
+# @ _basique
+#: partials/sidebars/header.php:16
+msgid "Header : widget ready area !"
+msgstr "Entête : zone prête à recevoir des widgets !"
+
+# @ _basique
+#: partials/sidebars/primary-only.php:18 partials/sidebars/primary.php:18
+msgid "Primary sidebar widgets ready !"
+msgstr "Barre latérale principale : zone prête à recevoir des widgets !"
+
+# @ _basique
+#: partials/sidebars/secondary.php:18
+msgid "Secondary sidebar widgets ready !"
+msgstr "Barre latérale secondaire : zone prête à recevoir des widgets !"
+
+# @ _basique
+#: partials/loops/list-news.php:36 partials/loops/list-search-results.php:22
+#: partials/loops/list.php:21
+msgid "Read more <span class=\"meta-nav\">&raquo;</span>"
+msgstr "Lire la suite <span class=\"meta-nav\">&raquo;</span>"
+
+# @ _basique
+#: partials/navigations/list.php:20
+msgid "Previous and next entries"
+msgstr "Résultats précédents et suivants"
+
+# @ _basique
+#: partials/navigations/list.php:7
+msgid "<span class=\"meta-nav\">&laquo;</span> Previous"
+msgstr "<span class=\"meta-nav\">&laquo;</span> Précédents"
+
+# @ _basique
+#: partials/navigations/list.php:8
+msgid "Next <span class=\"meta-nav\">&raquo;</span>"
+msgstr "Suivants <span class=\"meta-nav\">&raquo;</span>"
+
+# @ _basique
+#: functions.php:386
+#, php-format
+msgid "No result found for <em>&ldquo;%s&rdquo;</em>"
+msgstr "Aucun résultat trouvé pour <em>&ldquo;%s&rdquo;</em>"
+
+# @ _basique
+#: functions.php:389
+#, php-format
+msgid "One result for <em>&ldquo;%2$s&rdquo;</em>"
+msgid_plural "%1$s results for <em>&ldquo;%2$s&rdquo;</em>"
+msgstr[0] "Un résultat pour <em>&ldquo;%2$s&rdquo;</em>"
+msgstr[1] "%1$s résultats pour <em>&ldquo;%2$s&rdquo;</em>"
+
+# @ _basique
+#: functions.php:583
+#, php-format
+msgid "link to : %s"
+msgstr "lien vers : %s"
+
+# @ _basique
+#: partials/loops/list-search-results.php:32
+msgid "Nothing was found corresponding your search query."
+msgstr "Aucun contenu ne correspond à ce que vous cherchez."
+
+# @ _basique
+#: partials/navigations/list.php:11
+msgid "<span class=\"meta-nav\">&laquo;</span> Previous results"
+msgstr "<span class=\"meta-nav\">&laquo;</span> Résultats précédents"
+
+# @ _basique
+#: partials/navigations/list.php:12
+msgid "Next results <span class=\"meta-nav\">&raquo;</span>"
+msgstr "Résultats suivants <span class=\"meta-nav\">&raquo;</span>"
+
+# @ _basique
+#: searchform.php:10
+msgid "Search form"
+msgstr "Formulaire de recherche"
+
+# @ _basique
+#: searchform.php:12
+msgid "Search for : "
+msgstr "Chercher : "
+
+# @ _basique
+#: searchform.php:14
+msgid "Search..."
+msgstr "Rechercher..."
+
+# @ _basique
+#: searchform.php:15
+msgid "OK"
+msgstr "OK"
+
+# @ _basique
+#: functions.php:405
+msgid "Archives"
+msgstr "Archives"

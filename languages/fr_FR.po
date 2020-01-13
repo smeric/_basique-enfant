@@ -1,0 +1,356 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: _basique-enfant v0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-04-29 17:58:26+0000\n"
+"Last-Translator: Sébastien Méric <sebastien.meric@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: functions.php:157
+#: functions.php:237
+#@ _basique
+msgid "Read more <span class=\"meta-nav\">&raquo;</span>"
+msgstr ""
+
+#: functions.php:253
+#@ _basique-enfant
+msgid "Featured post"
+msgstr "Mis en avant"
+
+#: functions.php:276
+#@ _basique-enfant
+msgid "Feature this post"
+msgstr "Mettre cet article en avant"
+
+#: functions.php:278
+#@ _basique-enfant
+msgid "Check to display this post in the homepage slideshow."
+msgstr "Cocher cette case pour que cet article apparaisse dans le diaporama de la page d'accueil."
+
+#: functions.php:325
+#@ _basique-enfant
+msgid "Number of posts to display on homepage"
+msgstr "Afficher sur la page d'accueil"
+
+#: functions.php:334
+#@ default
+msgid "posts"
+msgstr ""
+
+#: header.php:59
+#, php-format
+#@ _basique
+msgid "Copyright © %1s %2s. All Rights Reserved."
+msgstr ""
+
+#: page-templates/default-home-page.php:17
+#@ _basique
+msgid "Main page content"
+msgstr ""
+
+#: page-templates/default-home-page.php:69
+#: partials/loops/list-news.php:51
+#@ _basique
+msgid "Not Found"
+msgstr ""
+
+#: page-templates/default-home-page.php:71
+#: partials/loops/list-news.php:53
+#@ _basique
+msgid "Sorry, but you are looking for something that isn&#8217;t here."
+msgstr ""
+
+#: page-templates/default-home-page.php:92
+#@ _basique-enfant
+msgid "Show more posts <span class=\"meta-nav\">»</span>"
+msgstr "Afficher plus d'actus <span class=\"meta-nav\">»</span>"
+
+#: partials/comments/comments.php:27
+#: partials/comments/social-comments-test.php:26
+#, php-format
+#@ _basique-enfant
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Une réaction"
+msgstr[1] "%1$s réactions"
+
+#: partials/comments/comments.php:63
+#: partials/comments/social-comments-test.php:73
+#: partials/comments/social-comments.php:27
+#@ _basique-enfant
+#@ social
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: partials/comments/comments.php:76
+#, php-format
+#@ default
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: partials/comments/comments.php:79
+#@ default
+msgid "Name"
+msgstr ""
+
+#: partials/comments/comments.php:81
+#@ default
+msgid "Email"
+msgstr ""
+
+#: partials/comments/comments.php:83
+#@ default
+msgid "Website"
+msgstr ""
+
+#: partials/comments/comments.php:89
+#@ default
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: partials/comments/comments.php:91
+#: partials/comments/social-comments-test.php:60
+#: partials/comments/social-comments.php:17
+#, php-format
+#@ default
+#@ social
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: partials/comments/comments.php:93
+#, php-format
+#@ default
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: partials/comments/comments.php:94
+#@ default
+msgid "Your email address will not be published."
+msgstr ""
+
+#: partials/comments/comments.php:95
+#, php-format
+#@ default
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr ""
+
+#: partials/comments/comments.php:100
+#@ _basique-enfant
+msgid "Leave a Reply"
+msgstr "Réagir"
+
+#: partials/comments/comments.php:101
+#, php-format
+#@ default
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: partials/comments/comments.php:102
+#@ default
+msgid "Cancel reply"
+msgstr ""
+
+#: partials/comments/comments.php:103
+#@ default
+msgid "Post Comment"
+msgstr ""
+
+#: partials/comments/social-comments.php:6
+#@ social
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: partials/comments/social-comments.php:11
+#@ social
+msgid "Logging In..."
+msgstr ""
+
+#: partials/comments/social-comments.php:90
+#@ social
+msgid "0 Replies"
+msgstr ""
+
+#: partials/comments/social-comments.php:90
+#@ social
+msgid "1 Reply"
+msgstr ""
+
+#: partials/comments/social-comments.php:90
+#@ social
+msgid "% Replies"
+msgstr ""
+
+#: partials/comments/social-comments.php:91
+#, php-format
+#@ social
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: partials/comments/social-comments.php:92
+#, php-format
+#@ social
+msgid "1 Tweet"
+msgid_plural "%1$s Tweets"
+msgstr[0] ""
+msgstr[1] ""
+
+#: partials/comments/social-comments.php:93
+#, php-format
+#@ social
+msgid "1 Facebook"
+msgid_plural "%1$s Facebook"
+msgstr[0] ""
+msgstr[1] ""
+
+#: partials/comments/social-comments.php:94
+#, php-format
+#@ social
+msgid "1 Pingback"
+msgid_plural "%1$s Pingbacks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: partials/comments/social-comments.php:102
+#, php-format
+#@ social
+msgid "Last reply was %s"
+msgstr ""
+
+#: partials/comments/social-comments.php:137
+#: partials/navigations/comments.php:11
+#@ social
+#@ _basique-enfant
+msgid "Comment navigation"
+msgstr "Navigation pour les commentaires"
+
+#: partials/comments/social-comments.php:138
+#@ social
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: partials/comments/social-comments.php:139
+#@ social
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: partials/loops/single-post.php:17
+#: partials/loops/single-post.php:24
+#, php-format
+#@ _basique-enfant
+msgid "Published on %1$s at %2$s"
+msgstr "Publié le %1$s à %2$s"
+
+#: partials/loops/single-post.php:17
+#: partials/loops/single-post.php:24
+#@ _basique-enfant
+msgid "Y/m/d"
+msgstr "d/m/Y"
+
+#: partials/loops/single-post.php:17
+#: partials/loops/single-post.php:24
+#@ _basique-enfant
+msgid "G:i"
+msgstr "G:i"
+
+#: partials/loops/single-post.php:18
+#: partials/loops/single-post.php:25
+#@ _basique-enfant
+msgid "Share"
+msgstr "Partager"
+
+#: partials/loops/single-post.php:29
+#@ _basique
+msgid "(Edit)"
+msgstr ""
+
+#: partials/loops/single-post.php:32
+#@ _basique
+msgid "Pages : "
+msgstr ""
+
+#: partials/loops/single-post.php:36
+#@ _basique
+msgid "Next page <span class=\"meta-nav\">&raquo;</span>"
+msgstr ""
+
+#: partials/loops/single-post.php:37
+#@ _basique
+msgid "<span class=\"meta-nav\">&laquo;</span> Previous page"
+msgstr ""
+
+#: partials/navigations/comments.php:10
+#@ _basique-enfant
+msgid "Previous and next comments"
+msgstr "Commentaires précédents et suivants"
+
+#: partials/navigations/comments.php:14
+#@ _basique-enfant
+msgid "Older Comments"
+msgstr "Commentaires plus anciens"
+
+#: partials/navigations/comments.php:18
+#@ _basique-enfant
+msgid "Newer Comments"
+msgstr "Commentaires plus récents"
+
+#: partials/navigations/list-news.php:7
+#@ _basique
+msgid "<span class=\"meta-nav\">&laquo;</span> Previous"
+msgstr ""
+
+#: partials/navigations/list-news.php:8
+#@ _basique
+msgid "Next <span class=\"meta-nav\">&raquo;</span>"
+msgstr ""
+
+#: partials/navigations/list-news.php:11
+#@ _basique
+msgid "<span class=\"meta-nav\">&laquo;</span> Previous results"
+msgstr ""
+
+#: partials/navigations/list-news.php:12
+#@ _basique
+msgid "Next results <span class=\"meta-nav\">&raquo;</span>"
+msgstr ""
+
+#: partials/navigations/list-news.php:16
+#@ _basique-enfant
+msgid "<span class=\"meta-nav\">&laquo;</span> Recent posts"
+msgstr "<span class=\"meta-nav\">&laquo;</span> Articles récents"
+
+#: partials/navigations/list-news.php:25
+#: partials/navigations/single-post.php:16
+#@ _basique
+msgid "Previous and next entries"
+msgstr ""
+
+#: partials/navigations/single-post.php:7
+#, php-format
+#@ _basique
+msgid "<span class=\"meta-nav\">&laquo;</span> %title"
+msgstr ""
+
+#: partials/navigations/single-post.php:8
+#, php-format
+#@ _basique
+msgid "%title <span class=\"meta-nav\">&raquo;</span>"
+msgstr ""
+
