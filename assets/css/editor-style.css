@@ -1,0 +1,26 @@
+/**
+ * Styles appliqués à l'editeur
+ * 
+ * @package WordPress
+ * @subpackage _basique-enfant
+ **/
+
+/** =Base
+ *************************************/
+ /* Titre du post */
+.editor-post-title__input {}
+
+/* Styles alternatifs pour les titres */
+h1.is-style-alt,
+h2.is-style-alt,
+h3.is-style-alt,
+h4.is-style-alt,
+h5.is-style-alt,
+h6.is-style-alt {font-weight: normal;}
+
+/* Bouton pleine largeur */
+div[data-type="core/button"] div[data-block],
+.wp-block-button.is-style-full .wp-block-button__link,
+.wp-block-button.is-style-full .block-editor-rich-text {width: 100%;box-sizing: border-box;}
+
+

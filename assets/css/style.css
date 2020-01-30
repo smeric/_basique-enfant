@@ -143,6 +143,7 @@ h1 {
 	line-height: 3.2rem;
 	margin: 16px 0;
 }
+h1.is-style-alt {font-weight: normal;}
 h2 {
 	font-size: 26px;
 	font-size: 2.6rem;
@@ -150,6 +151,7 @@ h2 {
 	line-height: 3.2rem;
 	margin: 16px 0;
 }
+h2.is-style-alt {font-weight: normal;}
 h3 {
 	font-size: 24px;
 	font-size: 2.4rem;
@@ -157,6 +159,7 @@ h3 {
 	line-height: 3.2rem;
 	margin: 16px 0;
 }
+h3.is-style-alt {font-weight: normal;}
 h4 {
 	font-size: 22px;
 	font-size: 2.2rem;
@@ -164,6 +167,7 @@ h4 {
 	line-height: 3.2rem;
 	margin: 16px 0;
 }
+h4.is-style-alt {font-weight: normal;}
 h5 {
 	font-size: 20px;
 	font-size: 2rem;
@@ -171,6 +175,7 @@ h5 {
 	line-height: 3.2rem;
 	margin: 16px 0;
 }
+h5.is-style-alt {font-weight: normal;}
 h6 {
 	font-size: 18px;
 	font-size: 1.8rem;
@@ -178,6 +183,7 @@ h6 {
 	line-height: 3.2rem;
 	margin: 16px 0;
 }
+h6.is-style-alt {font-weight: normal;}
 
 em {
 	line-height: 1em;
@@ -443,7 +449,17 @@ p .alignnone:last-child,
 p img.alignnone:last-child {
 	margin-bottom: 0;
 }
-
+.alignwide {}
+.alignfull {}
+.has-theme-primary-background-color {background-color: white;}
+.has-theme-primary-color {color: white;}
+.has-theme-secondary-background-color {background-color: black;}
+.has-theme-secondary-color {color: black;}
+.has-small-font-size {font-size: 10px;font-size: 1rem;}
+.has-normal-font-size {}
+.has-large-font-size {font-size: 14px;font-size: 1.4rem;}
+.has-larger-font-size {font-size: 16px;font-size: 1.6rem;}
+.is-style-full .wp-block-button__link {width: 100%;box-sizing: border-box;}
 
 /** =Articles / Pages
  *************************************/
