@@ -139,8 +139,9 @@ function _basique_enfant_gutenberg_scripts() {
     // Ajoutons un paramètre de valeur différente à chaque rechargement en mode débugage pour éviter les problèmes de cache
     $no_cache = is_debug_mode() ? time() : $current_theme->get( 'Version' );
 
-    wp_register_script( '_basique-enfant-gutenberg-editor', get_stylesheet_directory_uri() . '/assets/js/editor.js', array( 'wp-blocks', 'wp-dom' ), $no_cache, true );
+    wp_register_script( '_basique-enfant-gutenberg-editor', get_stylesheet_directory_uri() . '/assets/js/editor.js', array( 'wp-blocks', 'wp-dom', 'wp-i18n' ), $no_cache, true );
 	wp_enqueue_script( '_basique-enfant-gutenberg-editor' );
+    wp_set_script_translations( '_basique-enfant-gutenberg-editor', '_basique-enfant', get_stylesheet_directory() . '/assets/js/languages' );
 }
 
 

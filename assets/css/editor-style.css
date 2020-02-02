@@ -5,10 +5,20 @@
  * @subpackage _basique-enfant
  **/
 
+
 /** =Base
  *************************************/
+ 
+/* .editor-styles-wrapper sera substitué à body et précédera toutes les autres déclarations */
+body {font-family: 'Lato';}
+
  /* Titre du post */
-.editor-post-title__input {}
+.editor-post-title__block {}
+    .editor-post-title__input {font-family: 'Lato';}
+
+
+/** =Block natifs modifiés
+ *************************************/
 
 /* Styles alternatifs pour les titres */
 h1.is-style-alt,
@@ -22,5 +32,4 @@ h6.is-style-alt {font-weight: normal;}
 div[data-type="core/button"] div[data-block],
 .wp-block-button.is-style-full .wp-block-button__link,
 .wp-block-button.is-style-full .block-editor-rich-text {width: 100%;box-sizing: border-box;}
-
 

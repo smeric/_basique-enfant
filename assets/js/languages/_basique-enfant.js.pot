@@ -1,0 +1,26 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-02-02T14:36:16+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: _basique-enfant\n"
+
+#: editor.js:56
+#: editor.js:80
+msgid "Default"
+msgstr ""
+
+#: editor.js:60
+msgid "Alternate"
+msgstr ""
+
+#: editor.js:84
+msgid "Full Width"
+msgstr ""
