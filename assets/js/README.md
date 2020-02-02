@@ -4,7 +4,7 @@
 
 J'ai utilisé [wp-cli](https://wp-cli.org/) pour générer le fichier `languages/_basique-enfant.js.pot` qui contient les chaines à traduire présentes dans `editor.js` :
 ```dos
-> [wp i18n](https://github.com/wp-cli/i18n-command) make-pot . languages/_basique-enfant.js.pot --slug=_basique-enfant --domain=_basique-enfant
+> wp i18n make-pot . languages/_basique-enfant.js.pot --slug=_basique-enfant --domain=_basique-enfant
 ```
 Puis je duplique `_basique-enfant.js.pot` vers `_basique-enfant.js-fr_FR.po` pour faire la traduction en français :
 ```dos
@@ -18,4 +18,5 @@ le fichier généré à un nom (`_basique-enfant.js-fr_FR-7ea2683d6f213926d1bc30
 
 * Block Editor Handbook / Developer Documentation / [Internationalization](https://developer.wordpress.org/block-editor/developers/internationalization/)
 * [`wp i18n <command>`](https://developer.wordpress.org/cli/commands/i18n/)
+* [`wp i18n`](https://github.com/wp-cli/i18n-command)
 
